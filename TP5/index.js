@@ -20,10 +20,10 @@ let precio3 = 89
 let total
 total = (precio1+precio2+precio3)
 console.log ("El total a pagar es de: "+total)
-let comidaFavorita = "milanesa con puré"
+let comidaFavorita = "queque"
 let colorFavorito = "azul"
 let numeroFavorito = 12
-console.log ("Mi comida favorita es la "+comidaFavorita+", mi color favorito es el "+colorFavorito+" y mi número favorito es el "+numeroFavorito)
+console.log ("Mi comida favorita es el "+comidaFavorita+", mi color favorito es el "+colorFavorito+" y mi número favorito es el "+numeroFavorito)
 let pais
 pais = "Argentina"
 console.log (pais)
