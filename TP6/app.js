@@ -1,0 +1,8 @@
+let botonTitulo = document.querySelector ("#botonTitulo")
+let titulo = document.querySelector ("#titulo")
+let botonSubtitulo = document.querySelector ("#botonSubtitulo")
+let titulo = document.querySelector ("#subtitulo")
+let botonParrafo1 = document.querySelector ("#botonParrafo")
+let titulo = document.querySelector ("#parrafo1")
+let botonParrafo2 = document.querySelector ("#botonParrafo2")
+let titulo = document.querySelector ("#parrafo2")
