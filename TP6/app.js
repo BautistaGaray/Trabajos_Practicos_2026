@@ -1,3 +1,4 @@
+//Declaraciones de Variables
 let botonTitulo = document.querySelector ("#botonTitulo")
 let titulo = document.querySelector ("#titulo")
 let botonSubtitulo = document.querySelector ("#botonSubtitulo")
@@ -6,3 +7,5 @@ let botonParrafo1 = document.querySelector ("#botonParrafo")
 let titulo = document.querySelector ("#parrafo1")
 let botonParrafo2 = document.querySelector ("#botonParrafo2")
 let titulo = document.querySelector ("#parrafo2")
+
+//Cambios de propiedades del texto usando los botones 
