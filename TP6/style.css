@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    background-color: beige;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+p {
+    font-size: medium;
+    color: darkgoldenrod;
+}
+button {
+    background-color: rgb(155, 155, 155);
+    color: rgb(46, 46, 73);
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin: 10px;
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+button:hover {
+    background-color: rgb(240, 240, 240);
+    transition: 0.5s;
+}

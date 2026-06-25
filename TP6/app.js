@@ -1,11 +1,7 @@
-//Declaraciones de Variables
-let botonTitulo = document.querySelector ("#botonTitulo")
-let titulo = document.querySelector ("#titulo")
-let botonSubtitulo = document.querySelector ("#botonSubtitulo")
-let titulo = document.querySelector ("#subtitulo")
-let botonParrafo1 = document.querySelector ("#botonParrafo")
-let titulo = document.querySelector ("#parrafo1")
-let botonParrafo2 = document.querySelector ("#botonParrafo2")
-let titulo = document.querySelector ("#parrafo2")
-
-//Cambios de propiedades del texto usando los botones 
+//Variables
+let titulo = document.querySelector ("h1")
+let parrafo = document.querySelector ("p")
+let botonCambiarFondo = document.querySelector ("#BotonCambioFondo")
+let botonCambiarTexto = document.querySelector ("#BotonCambioTexto")
+let botonCambiarColor = document.querySelector ("#BotonCambioColor")
+let botonCambiarLetra = document.querySelector ("#BotonCambioLetra")
