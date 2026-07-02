@@ -6,9 +6,9 @@ let body = document.querySelector ("body")
 
 botonFondoOscuro.onclick = function (){
     body.style.backgroundColor = ("rgb(4, 3, 65)")
-    titulo.style.color = ("white")
+    body.style.color = ("white")
 }
 botonFondoClaro.onclick = function (){
     body.style.backgroundColor = ("white")
-    titulo.style.color = ("black")
+    body.style.color = ("black")
 }
