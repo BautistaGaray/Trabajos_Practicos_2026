@@ -25,9 +25,9 @@ let parrafoActividad7 = document.querySelector ("#ParrafoActividad7")
 botonActividad1.onclick = function (){
     if (edad >= 18)
     {
-    parrafoActividad1.textContent = "Usted es mayor a 18"
+    parrafoActividad1.textContent = "Usted es mayor de edad"
     }else{
-    parrafoActividad1.textContent = "Usted es menor a 18"
+    parrafoActividad1.textContent = "Usted es menor de edad"
     }
 }
 botonActividad2.onclick = function (){
@@ -47,12 +47,12 @@ botonActividad3.onclick = function (){
     }
 }
 botonActividad4.onclick = function (){
-    if (numero <= 0)
+    if (numero < 0)
     {
         parrafoActividad4.textContent = "El número es menor a 0."
     }else if (numero == 0){
         parrafoActividad4.textContent = "El número es 0."
-    }else if (numero >= 0){
+    }else if (numero > 0){
         parrafoActividad4.textContent = "El número es mayor a 0."
     }
 }
