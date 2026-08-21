@@ -59,11 +59,11 @@ botonActividad4.onclick = function (){
     numero = inputActividad4.value
     if (numero < 0)
     {
-        parrafoActividad4.textContent = "El número es menor a 0."
+        parrafoActividad4.textContent = "El número es negativo."
     }else if (numero == 0){
         parrafoActividad4.textContent = "El número es 0."
     }else if (numero > 0){
-        parrafoActividad4.textContent = "El número es mayor a 0."
+        parrafoActividad4.textContent = "El número es positivo."
     }
 }
 botonActividad5.onclick = function (){
@@ -78,6 +78,8 @@ botonActividad5.onclick = function (){
         parrafoActividad5.textContent = "Adulto"
     }else if (edad2 >= 60){
         parrafoActividad5.textContent = "Anciano"
+    }else {
+        parrafoActividad5.textContent = "Edad no correspondida."
     }
 }
 botonActividad6.onclick = function (){
