@@ -48,7 +48,7 @@ botonActividad2.onclick = function (){
 }
 botonActividad3.onclick = function (){
     nombreUsuario2 = inputActividad3.value
-    if (nombreUsuario2 == "Nahuel" || nombreUsuario2 == "Marcos")
+    if ((nombreUsuario2 == "Nahuel") || (nombreUsuario2 == "Marcos"))
     {
         parrafoActividad3.textContent = "Bienvenido, " + nombreUsuario2 + ". ¿Cómo estás?"
     }else{
@@ -68,13 +68,13 @@ botonActividad4.onclick = function (){
 }
 botonActividad5.onclick = function (){
     edad2 = inputActividad5.value
-    if (edad2 >= 6 && edad2 <= 11){
+    if ((edad2 >= 6) && (edad2 <= 11)){
         parrafoActividad5.textContent = "Niño"
-    }else if (edad2 >= 12 && edad2 <= 18){
+    }else if ((edad2 >= 12) && (edad2 <= 18)){
         parrafoActividad5.textContent = "Adolescente"
-    }else if (edad2 >= 19 && edad2 <= 26){
+    }else if ((edad2 >= 19) && (edad2 <= 26)){
         parrafoActividad5.textContent = "Jóven"
-    }else if (edad2 >= 27 && edad2 <= 59){
+    }else if ((edad2 >= 27) && (edad2 <= 59)){
         parrafoActividad5.textContent = "Adulto"
     }else if (edad2 >= 60){
         parrafoActividad5.textContent = "Anciano"
@@ -84,10 +84,10 @@ botonActividad5.onclick = function (){
 }
 botonActividad6.onclick = function (){
     dia = inputActividad6.value
-    if (dia == "lunes" || dia == "martes" || dia == "miercoles" || dia == "jueves" || dia == "viernes")
+    if ((dia == "lunes") || (dia == "martes") || (dia == "miercoles") || (dia == "jueves") || (dia == "viernes"))
     {
         parrafoActividad6.textContent = "Es un día laborable."
-    }else if (dia == "sabado" || "domingo")
+    }else if ((dia == "sabado") || (dia == "domingo"))
     {
         parrafoActividad6.textContent = "Es fin de semana."
     }
