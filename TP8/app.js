@@ -29,7 +29,7 @@ let inputActividad6 = document.querySelector ("#InputActividad6")
 let inputActividad7 = document.querySelector ("#InputActividad7")
 //Condiciones
 botonActividad1.onclick = function (){
-    edad = inputActividad1.value
+    edad.textContent = inputActividad1.value
     if (edad >= 18)
     {
     parrafoActividad1.textContent = "Usted es mayor de edad"
@@ -38,7 +38,7 @@ botonActividad1.onclick = function (){
     }
 }
 botonActividad2.onclick = function (){
-    nombreUsuario = inputActividad2.value
+    nombreUsuario.textContent = inputActividad2.value
     if (nombreUsuario == "Nahuel")
     {
         parrafoActividad2.textContent = "Bienvenido, Nahuel. ¿Cómo estás?"
@@ -47,7 +47,7 @@ botonActividad2.onclick = function (){
     }
 }
 botonActividad3.onclick = function (){
-    nombreUsuario2 = inputActividad3.value
+    nombreUsuario2.textContent = inputActividad3.value
     if ((nombreUsuario2 == "Nahuel") || (nombreUsuario2 == "Marcos"))
     {
         parrafoActividad3.textContent = "Bienvenido, " + nombreUsuario2 + ". ¿Cómo estás?"
@@ -56,7 +56,7 @@ botonActividad3.onclick = function (){
     }
 }
 botonActividad4.onclick = function (){
-    numero = inputActividad4.value
+    numero.textContent = inputActividad4.value
     if (numero < 0)
     {
         parrafoActividad4.textContent = "El número es negativo."
@@ -67,7 +67,7 @@ botonActividad4.onclick = function (){
     }
 }
 botonActividad5.onclick = function (){
-    edad2 = inputActividad5.value
+    edad2.textContent = inputActividad5.value
     if ((edad2 >= 6) && (edad2 <= 11)){
         parrafoActividad5.textContent = "Niño"
     }else if ((edad2 >= 12) && (edad2 <= 18)){
@@ -83,7 +83,7 @@ botonActividad5.onclick = function (){
     }
 }
 botonActividad6.onclick = function (){
-    dia = inputActividad6.value
+    dia.textContent = inputActividad6.value
     if ((dia == "lunes") || (dia == "martes") || (dia == "miercoles") || (dia == "jueves") || (dia == "viernes"))
     {
         parrafoActividad6.textContent = "Es un día laborable."
@@ -93,7 +93,7 @@ botonActividad6.onclick = function (){
     }
 }
 botonActividad7.onclick = function (){
-    contrasenia = inputActividad7.value
+    contrasenia.textContent = inputActividad7.value
     if (contrasenia == "secreto"){
         parrafoActividad7.textContent = "Acceso concedido."
     }else{
