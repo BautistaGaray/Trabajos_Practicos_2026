@@ -1,0 +1,28 @@
+#Título1 {
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(0, 0, 255);
+}
+#Título2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(42, 181, 216);
+}
+img {
+    width: 250px;
+}
+#Párrafo1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+#Párrafo2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(150, 127, 0);
+}
+#Párrafo3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}

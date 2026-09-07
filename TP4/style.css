@@ -1,0 +1,25 @@
+body {
+    display: flex;
+}
+#Caja1 {
+    background-color: rgb(255, 87, 87);
+    border: 5px solid transparent;
+    border-radius: 5px;
+    width: 50px;
+}
+#Caja2 {
+    background-color: rgb(87, 87, 255);
+    border: 5px solid transparent;
+    border-radius: 5px;
+    width: 50px;
+}
+#Caja3 {
+    background-color: rgb(87, 255, 87);
+    border: 5px solid transparent;
+    border-radius: 5px;
+    width: 50px;
+}
+#Caja1, #Caja2, #Caja3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
