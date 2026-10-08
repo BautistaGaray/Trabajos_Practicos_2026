@@ -23,6 +23,7 @@ let parrafoFuncion5 = document.querySelector ("#resultadoFuncion5")
 let parrafoFuncion6 = document.querySelector ("#resultadoFuncion6")
 let parrafoFuncion7 = document.querySelector ("#resultadoFuncion7")
 
+//Funciones
 function mayor (n1, n2) {
     if (n1 > n2) {
         return "El mayor es: " + n1
