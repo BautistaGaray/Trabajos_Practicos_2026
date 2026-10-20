@@ -39,3 +39,20 @@ console.log (productos);
 console.log (productos.length);
 //Actividad 3
 let productos2 = ["Teclado", "Mouse", "Monitor", "Auriculares", "Webcam", "Parlantes"];
+productos2.indexOf ("Mouse");
+console.log (productos2.indexOf ("Mouse"));
+productos2.indexOf ("Monitor");
+console.log (productos2.indexOf ("Monitor"));
+productos2.indexOf ("Impresora");
+console.log (productos2.indexOf ("Impresora"));
+productos2.indexOf ("Teclado");
+console.log (productos2.indexOf ("Teclado"));
+let teclado = productos2.indexOf ("Teclado");
+if (teclado == -1){
+    console.log ("El elemento no se encuentra en la lista");
+}else{
+    console.log ("El elemento se encuentra en la posición: " + teclado);
+}
+productos2.push ("Impresora");
+console.log (productos2.indexOf ("Impresora"));
+console.log (productos2.length);
