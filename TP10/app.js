@@ -56,3 +56,7 @@ if (teclado == -1){
 productos2.push ("Impresora");
 console.log (productos2.indexOf ("Impresora"));
 console.log (productos2.length);
+//Actividad 4
+let videojuegos = ["Minecraft", "Pokemon Cristal", "Super Mario", "The Legend of Zelda", "Sonic"];
+console.log (videojuegos);
+console.log (videojuegos.length);
