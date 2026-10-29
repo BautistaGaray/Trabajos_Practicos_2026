@@ -105,4 +105,3 @@ let tareas = ["Estudiar", "Hacer la tarea", "Ordenar la habitación", "Comprar a
 console.log (tareas);
 console.log (tareas.length);
 tareas.push ("Pasear al perro");
-tareas.push ();
