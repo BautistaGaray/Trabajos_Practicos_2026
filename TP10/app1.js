@@ -52,7 +52,7 @@ if (teclado == -1){
     console.log ("El elemento no se encuentra en la lista");
 }else{
     console.log ("El elemento se encuentra en la posición: " + teclado);
-}
+};
 productos2.push ("Impresora");
 console.log (productos2.indexOf ("Impresora"));
 console.log (productos2.length);
@@ -98,10 +98,58 @@ console.log ("El estudiante eliminado va a ser: " + estudiantes.shift);
 estudiantes.shift ();
 console.log ("El estudiante eliminado va a ser: " + estudiantes.pop);
 estudiantes.pop ();
-console.log (estudiantes)
-console.log (estudiantes.length)
+console.log (estudiantes);
+console.log (estudiantes.length);
 //Actividad 6
 let tareas = ["Estudiar", "Hacer la tarea", "Ordenar la habitación", "Comprar alimentos"];
 console.log (tareas);
 console.log (tareas.length);
 tareas.push ("Pasear al perro");
+tareas.push ("Preparar la cena");
+console.log (tareas);
+tareas.unshift ("Entregar un trabajo");
+console.log (tareas);
+tareas.indexOf ("Estudiar");
+console.log (tareas.indexOf ("Estudiar"));
+tareas.indexOf ("Preparar la cena");
+console.log (tareas.indexOf ("Preparar la cena"));
+console.log ("La tarea a eliminar va a ser: " + tareas.unshift ());
+tareas.shift ();
+console.log ("La tarea a eliminar va a ser: " + tareas.pop ());
+tareas.pop ();
+tareas.push ("Leer un libro");
+tareas.unshift ("Hacer ejercicio");
+console.log (tareas);
+console.log (tareas.length);
+//Actividad 7
+let peliculas = ["Toy Story", "Shrek", "Buscando a Nemo", "Los Increíbles", "Ratatouille"];
+console.log (peliculas);
+console.log (peliculas.length);
+peliculas.push ("Cars");
+peliculas.push ("Monsters, Inc.");
+console.log (peliculas);
+peliculas.unshift ("Intensamente");
+peliculas.unshift ("Coco");
+console.log (peliculas);
+peliculas.indexOf ("Shrek");
+console.log (peliculas.indexOf ("Shrek"));
+peliculas.indexOf ("Coco");
+console.log (peliculas.indexOf ("Coco"));
+peliculas.indexOf ("Frozen");
+console.log (peliculas.indexOf ("Frozen"));
+peliculas.indexOf ("Cars");
+let busquedaPelicula = peliculas.indexOf ("Cars");
+if (busquedaPelicula == -1){
+    console.log ("La película no se encuentra en la lista");
+}else if (busquedaPelicula == peliculas.indexOf ("Cars")){
+    console.log ("La película se encuentra en la lista");
+};
+console.log ("La película a eliminar va a ser: " + peliculas.pop());
+peliculas.pop();
+console.log ("La película a eliminar va a ser: " + peliculas.shift());
+peliculas.shift();
+peliculas.push ("Up");
+peliculas.indexOf ("Up");
+console.log (peliculas.indexOf ("Up"));
+console.log (peliculas);
+console.log (peliculas.length);
